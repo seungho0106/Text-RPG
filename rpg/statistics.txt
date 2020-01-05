@@ -1,0 +1,2 @@
+Time      |TtlSteps  |numMonsKilled  |avgMonRespInterval  |ProjectileRatio|ShockWaveRatio |KnockbackRatio |MeleeAttack    |
+----------+----------+---------------+--------------------+---------------+---------------+---------------+---------------+

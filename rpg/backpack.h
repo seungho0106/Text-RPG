@@ -1,6 +1,8 @@
 #ifndef BACKPACK_H
 #define BACKPACK_H
 
+#include <vector>
+
 #include "item.h"
 
 template <class T>

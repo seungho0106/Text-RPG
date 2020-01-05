@@ -15,84 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="util.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="board.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="item.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="prop.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="tile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="unit.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="monster.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="hero.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="merchant.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="inventory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="paperdoll.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="boss.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="shockwave.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="set.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="armor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="consumable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="equippable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="weapon.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="potion.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="magicscroll.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="main.h">
+    <ClInclude Include="shockwave.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="util.h">
+    <ClInclude Include="sim.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="board.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="item.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="prop.h">
+    <ClInclude Include="statistics.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="tile.h">
@@ -101,44 +30,166 @@
     <ClInclude Include="unit.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="monster.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="hero.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="merchant.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="inventory.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="paperdoll.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="boss.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="shockwave.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="set.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="armor.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="consumable.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="equippable.h">
+    <ClInclude Include="util.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="weapon.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="potion.h">
+    <ClInclude Include="armor.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="backpack.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="consumable_item.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="equippable_item.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="health_potion.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hero.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="magic_scroll.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mana_potion.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="merchant.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monster.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paperdoll.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pet.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="projectile.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prop.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="set.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="armor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="backpack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="consumable_item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="equippable_Item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="health_potion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="magic_scroll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mana_potion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="merchant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paperdoll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="priority_queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="projectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shockwave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

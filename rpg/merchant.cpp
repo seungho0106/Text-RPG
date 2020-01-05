@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 #ifdef _MBCS
 #include <windows.h>

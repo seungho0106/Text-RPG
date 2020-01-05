@@ -18,11 +18,73 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="armor.h" />
+    <ClInclude Include="backpack.h" />
+    <ClInclude Include="board.h" />
+    <ClInclude Include="boss.h" />
+    <ClInclude Include="consumable_item.h" />
+    <ClInclude Include="equippable_item.h" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="health_potion.h" />
+    <ClInclude Include="hero.h" />
+    <ClInclude Include="inventory.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="magic_scroll.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="mana_potion.h" />
+    <ClInclude Include="merchant.h" />
+    <ClInclude Include="monster.h" />
+    <ClInclude Include="paperdoll.h" />
+    <ClInclude Include="pet.h" />
+    <ClInclude Include="priority_queue.h" />
+    <ClInclude Include="projectile.h" />
+    <ClInclude Include="prop.h" />
+    <ClInclude Include="set.h" />
+    <ClInclude Include="shockwave.h" />
+    <ClInclude Include="sim.h" />
+    <ClInclude Include="statistics.h" />
+    <ClInclude Include="tile.h" />
+    <ClInclude Include="unit.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="armor.cpp" />
+    <ClCompile Include="backpack.cpp" />
+    <ClCompile Include="board.cpp" />
+    <ClCompile Include="boss.cpp" />
+    <ClCompile Include="consumable_item.cpp" />
+    <ClCompile Include="equippable_Item.cpp" />
+    <ClCompile Include="event.cpp" />
+    <ClCompile Include="health_potion.cpp" />
+    <ClCompile Include="hero.cpp" />
+    <ClCompile Include="inventory.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="magic_scroll.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mana_potion.cpp" />
+    <ClCompile Include="merchant.cpp" />
+    <ClCompile Include="monster.cpp" />
+    <ClCompile Include="paperdoll.cpp" />
+    <ClCompile Include="pet.cpp" />
+    <ClCompile Include="priority_queue.cpp" />
+    <ClCompile Include="projectile.cpp" />
+    <ClCompile Include="prop.cpp" />
+    <ClCompile Include="set.cpp" />
+    <ClCompile Include="shockwave.cpp" />
+    <ClCompile Include="sim.cpp" />
+    <ClCompile Include="statistics.cpp" />
+    <ClCompile Include="tile.cpp" />
+    <ClCompile Include="unit.cpp" />
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="weapon.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{24104667-DEC2-4DEE-A2F9-E40F5DAA9EF5}</ProjectGuid>
     <RootNamespace>rpg</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -110,51 +172,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="armor.cpp" />
-    <ClCompile Include="board.cpp" />
-    <ClCompile Include="boss.cpp" />
-    <ClCompile Include="consumable.cpp" />
-    <ClCompile Include="equippable.cpp" />
-    <ClCompile Include="hero.cpp" />
-    <ClCompile Include="inventory.cpp" />
-    <ClCompile Include="item.cpp" />
-    <ClCompile Include="magicscroll.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="merchant.cpp" />
-    <ClCompile Include="monster.cpp" />
-    <ClCompile Include="paperdoll.cpp" />
-    <ClCompile Include="potion.cpp" />
-    <ClCompile Include="prop.cpp" />
-    <ClCompile Include="set.cpp" />
-    <ClCompile Include="shockwave.cpp" />
-    <ClCompile Include="tile.cpp" />
-    <ClCompile Include="unit.cpp" />
-    <ClCompile Include="util.cpp" />
-    <ClCompile Include="weapon.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="armor.h" />
-    <ClInclude Include="board.h" />
-    <ClInclude Include="boss.h" />
-    <ClInclude Include="consumable.h" />
-    <ClInclude Include="equippable.h" />
-    <ClInclude Include="hero.h" />
-    <ClInclude Include="inventory.h" />
-    <ClInclude Include="item.h" />
-    <ClInclude Include="main.h" />
-    <ClInclude Include="merchant.h" />
-    <ClInclude Include="monster.h" />
-    <ClInclude Include="paperdoll.h" />
-    <ClInclude Include="potion.h" />
-    <ClInclude Include="prop.h" />
-    <ClInclude Include="set.h" />
-    <ClInclude Include="shockwave.h" />
-    <ClInclude Include="tile.h" />
-    <ClInclude Include="unit.h" />
-    <ClInclude Include="util.h" />
-    <ClInclude Include="weapon.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

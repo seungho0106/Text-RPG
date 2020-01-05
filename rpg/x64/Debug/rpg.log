@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\hawim\desktop\text_rpg\rpg\main.cpp(230): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+  rpg.vcxproj -> C:\Users\hawim\Desktop\text_rpg\x64\Debug\rpg.exe

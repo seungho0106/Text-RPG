@@ -54,7 +54,7 @@ int main() {
                 sim->systemMessage = "";
                 sim->systemMessageCount = 0;
             }
-            cout << "SYSTEM: [ " << setw(40) << left << sim->systemMessage << " ]" << endl;
+            //cout << "SYSTEM: [ " << setw(40) << left << sim->systemMessage << " ]" << endl;
             sim->systemMessageCount++;
         }
         //----------------------------------------------------------------------
@@ -137,7 +137,7 @@ int main() {
             if (command == 'o' || command == 'O') {
                 string FILENAME = "";
                 cout << "Enter save file name(-1 to cancel): " << endl;
-                cin >> FILENAME;
+                //cin >> FILENAME;
                 if (FILENAME != "-1") {
                     ofstream fout(FILENAME.c_str());
                     sim->board->save(fout);
@@ -147,7 +147,7 @@ int main() {
             else if (command == 'p' || command == 'P') {
                 string FILENAME = "";
                 cout << "Enter load file name(-1 to cancel): " << endl;
-                cin >> FILENAME;
+                //cin >> FILENAME;
                 if (FILENAME != "-1") {
                     ifstream fin(FILENAME.c_str());
                     sim->board->load(fin);
